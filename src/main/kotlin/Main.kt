@@ -39,8 +39,8 @@ object WallService{
 }
 fun main(){
     val post = Post(1, 1, 2022, "Vk Post is ready!", 2, false, Comments(),
-        "By me", Likes(15), Views(1996), "post", 1, can_pin = true, can_delete = false, false, true,
-        is_favorite = true
+        "By me", Likes(15), Views(1996), "post", 1, can_pin = true, can_delete = false,
+        false, true, is_favorite = true
     )
     println(WallService.addPost(post))
 }
